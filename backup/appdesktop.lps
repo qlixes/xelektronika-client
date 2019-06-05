@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="21">
+      <Unit0>
+        <Filename Value="appdesktop.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <CursorPos Y="19"/>
+        <UsageCount Value="210"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="dashboard.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="124"/>
+        <CursorPos X="3" Y="139"/>
+        <UsageCount Value="210"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="udetail.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form2"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="55"/>
+        <CursorPos X="41" Y="69"/>
+        <UsageCount Value="204"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="broker.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="259"/>
+        <CursorPos X="92" Y="318"/>
+        <UsageCount Value="204"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="ucompuxui.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="123"/>
+        <CursorPos X="21" Y="137"/>
+        <UsageCount Value="203"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="/usr/share/lazarus/1.8.0RC4/components/indy/fpc/IdHTTP.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="364"/>
+        <CursorPos X="148" Y="375"/>
+        <UsageCount Value="5"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="/usr/share/lazarus/1.8.0RC4/lcl/grids.pas"/>
+        <UnitName Value="Grids"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1697"/>
+        <CursorPos X="14" Y="1704"/>
+        <UsageCount Value="12"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="/usr/share/lazarus/1.8.0RC4/lcl/controls.pp"/>
+        <UnitName Value="Controls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="157"/>
+        <CursorPos X="3" Y="167"/>
+        <UsageCount Value="10"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="/usr/share/lazarus/1.8.0RC4/lcl/graphics.pp"/>
+        <UnitName Value="Graphics"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="297"/>
+        <CursorPos X="3" Y="312"/>
+        <UsageCount Value="9"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="/usr/share/lazarus/1.8.0RC4/lcl/buttons.pp"/>
+        <UnitName Value="Buttons"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="176"/>
+        <CursorPos X="3" Y="185"/>
+        <UsageCount Value="1"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="/usr/share/lazarus/1.8.0RC4/components/indy/fpc/IdTCPClient.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="323"/>
+        <CursorPos X="3" Y="325"/>
+        <UsageCount Value="16"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="/usr/share/fpcsrc/3.0.4/rtl/objpas/classes/classesh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2179"/>
+        <CursorPos X="10" Y="2197"/>
+        <UsageCount Value="3"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="/usr/share/lazarus/1.8.0RC4/lcl/forms.pp"/>
+        <UnitName Value="Forms"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="634"/>
+        <CursorPos X="15" Y="642"/>
+        <UsageCount Value="10"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="/usr/share/fpcsrc/3.0.4/rtl/objpas/sysutils/sysstrh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="238"/>
+        <CursorPos X="3" Y="248"/>
+        <UsageCount Value="3"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="/usr/share/fpcsrc/3.0.4/rtl/objpas/classes/classes.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="907"/>
+        <CursorPos X="3" Y="925"/>
+        <UsageCount Value="3"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="/usr/share/lazarus/1.8.0RC4/lcl/comctrls.pp"/>
+        <UnitName Value="ComCtrls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="267"/>
+        <CursorPos X="14" Y="275"/>
+        <UsageCount Value="9"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="/usr/share/lazarus/1.8.0RC4/components/indy/fpc/IdStream.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="19"/>
+        <CursorPos X="3" Y="29"/>
+        <UsageCount Value="4"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="appdesktop.cfg"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="14" Y="2"/>
+        <UsageCount Value="39"/>
+        <DefaultSyntaxHighlighter Value="None"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="C:/lazarus/fpc/3.0.2/source/rtl/objpas/sysutils/sysstrh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="199"/>
+        <CursorPos X="10" Y="211"/>
+        <UsageCount Value="5"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="../SIDonasiWarga/umediasoft.pas"/>
+        <UnitName Value="uMediasoft"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="117"/>
+        <CursorPos X="50" Y="25"/>
+        <UsageCount Value="10"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="/usr/share/lazarus/1.8.0/components/indy/fpc/IdStack.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="619"/>
+        <CursorPos Y="644"/>
+        <UsageCount Value="10"/>
+      </Unit20>
+    </Units>
+    <JumpHistory Count="18" HistoryIndex="17">
+      <Position1>
+        <Filename Value="broker.pas"/>
+        <Caret Line="35" Column="21" TopLine="22"/>
+      </Position1>
+      <Position2>
+        <Filename Value="appdesktop.lpr"/>
+        <Caret Line="16"/>
+      </Position2>
+      <Position3>
+        <Filename Value="appdesktop.lpr"/>
+        <Caret Line="17"/>
+      </Position3>
+      <Position4>
+        <Filename Value="appdesktop.lpr"/>
+        <Caret Line="18"/>
+      </Position4>
+      <Position5>
+        <Filename Value="dashboard.pas"/>
+        <Caret Line="65" Column="22" TopLine="59"/>
+      </Position5>
+      <Position6>
+        <Filename Value="dashboard.pas"/>
+        <Caret Line="265" Column="3" TopLine="236"/>
+      </Position6>
+      <Position7>
+        <Filename Value="dashboard.pas"/>
+        <Caret Line="74" Column="25" TopLine="64"/>
+      </Position7>
+      <Position8>
+        <Filename Value="dashboard.pas"/>
+        <Caret Line="131" Column="33" TopLine="124"/>
+      </Position8>
+      <Position9>
+        <Filename Value="appdesktop.lpr"/>
+        <Caret Line="16"/>
+      </Position9>
+      <Position10>
+        <Filename Value="appdesktop.lpr"/>
+        <Caret Line="17"/>
+      </Position10>
+      <Position11>
+        <Filename Value="appdesktop.lpr"/>
+        <Caret Line="18"/>
+      </Position11>
+      <Position12>
+        <Filename Value="appdesktop.lpr"/>
+        <Caret Line="19"/>
+      </Position12>
+      <Position13>
+        <Filename Value="broker.pas"/>
+        <Caret Line="87" Column="25" TopLine="74"/>
+      </Position13>
+      <Position14>
+        <Filename Value="broker.pas"/>
+        <Caret Line="357" Column="3" TopLine="355"/>
+      </Position14>
+      <Position15>
+        <Filename Value="broker.pas"/>
+        <Caret Line="89" Column="15" TopLine="77"/>
+      </Position15>
+      <Position16>
+        <Filename Value="dashboard.pas"/>
+        <Caret Line="131" Column="33" TopLine="190"/>
+      </Position16>
+      <Position17>
+        <Filename Value="dashboard.pas"/>
+        <Caret Line="85" Column="21" TopLine="71"/>
+      </Position17>
+      <Position18>
+        <Filename Value="dashboard.pas"/>
+        <Caret Line="201" Column="3" TopLine="145"/>
+      </Position18>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

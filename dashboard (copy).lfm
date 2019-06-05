@@ -1,0 +1,349 @@
+object Form1: TForm1
+  Left = 250
+  Height = 541
+  Top = 103
+  Width = 808
+  Caption = 'Form1'
+  ClientHeight = 518
+  ClientWidth = 808
+  Menu = MainMenu1
+  OnCreate = FormCreate
+  LCLVersion = '1.6.4.0'
+  object PageControl1: TPageControl
+    Left = 0
+    Height = 496
+    Top = 0
+    Width = 808
+    ActivePage = tsStok
+    TabIndex = 2
+    TabOrder = 0
+    object tsLogin: TTabSheet
+      Caption = 'Login'
+      ClientHeight = 467
+      ClientWidth = 798
+      object btnExit: TButton
+        Left = 704
+        Height = 25
+        Top = 112
+        Width = 75
+        Caption = 'btnExit'
+        TabOrder = 0
+      end
+      object btnLogin: TButton
+        Left = 600
+        Height = 25
+        Top = 112
+        Width = 75
+        Caption = 'btnLogin'
+        OnClick = btnLoginClick
+        TabOrder = 1
+      end
+      object Chart1: TChart
+        Left = 8
+        Height = 448
+        Top = 8
+        Width = 576
+        AxisList = <        
+          item
+            Minors = <>
+            Title.LabelFont.Orientation = 900
+          end        
+          item
+            Alignment = calBottom
+            Minors = <>
+          end>
+        Foot.Brush.Color = clBtnFace
+        Foot.Font.Color = clBlue
+        Title.Brush.Color = clBtnFace
+        Title.Font.Color = clBlue
+        Title.Text.Strings = (
+          'TAChart'
+        )
+      end
+      object edUsername: TEdit
+        Left = 600
+        Height = 32
+        Top = 16
+        Width = 179
+        TabOrder = 3
+        Text = 'username'
+      end
+      object edPassword: TEdit
+        Left = 600
+        Height = 32
+        Top = 56
+        Width = 179
+        EchoMode = emPassword
+        PasswordChar = '#'
+        TabOrder = 4
+        Text = 'password'
+      end
+    end
+    object tsTransaksi: TTabSheet
+      Caption = 'Transaksi'
+      ClientHeight = 467
+      ClientWidth = 798
+      object chbShowDetail: TCheckBox
+        Left = 120
+        Height = 23
+        Top = 6
+        Width = 82
+        Caption = 'show detail'
+        TabOrder = 0
+      end
+      object chbShowPayment: TCheckBox
+        Left = 120
+        Height = 23
+        Top = 31
+        Width = 96
+        Caption = 'show payment'
+        TabOrder = 1
+      end
+      object cbTransaksi: TComboBox
+        Left = 224
+        Height = 32
+        Top = 16
+        Width = 120
+        ItemHeight = 0
+        TabOrder = 2
+      end
+      object cbLokasi: TComboBox
+        Left = 360
+        Height = 32
+        Top = 16
+        Width = 120
+        ItemHeight = 0
+        TabOrder = 3
+      end
+      object edNoInvoices: TEdit
+        Left = 496
+        Height = 32
+        Top = 16
+        Width = 96
+        TabOrder = 4
+      end
+      object btnRefresh1: TBitBtn
+        Left = 616
+        Height = 30
+        Top = 18
+        Width = 75
+        Caption = 'Refresh'
+        TabOrder = 5
+      end
+      object sgTransaksi: TStringGrid
+        Left = -5
+        Height = 352
+        Top = 72
+        Width = 805
+        TabOrder = 6
+      end
+      object btnFirst1: TBitBtn
+        Left = 16
+        Height = 30
+        Top = 432
+        Width = 75
+        TabOrder = 7
+      end
+      object btnPrevious1: TBitBtn
+        Left = 96
+        Height = 30
+        Top = 432
+        Width = 75
+        TabOrder = 8
+      end
+      object btnNext1: TBitBtn
+        Left = 232
+        Height = 30
+        Top = 432
+        Width = 75
+        TabOrder = 9
+      end
+      object btnLast1: TBitBtn
+        Left = 312
+        Height = 30
+        Top = 432
+        Width = 75
+        TabOrder = 10
+      end
+      object edPage1: TEdit
+        Left = 176
+        Height = 32
+        Top = 432
+        Width = 48
+        NumbersOnly = True
+        TabOrder = 11
+      end
+      object btnTransaksiXLS: TBitBtn
+        Left = 704
+        Height = 30
+        Top = 432
+        Width = 75
+        TabOrder = 12
+      end
+      object dtStart: TDateEdit
+        Left = 8
+        Height = 32
+        Top = 3
+        Width = 103
+        CalendarDisplaySettings = [dsShowHeadings, dsShowDayNames]
+        DateOrder = doNone
+        ButtonWidth = 23
+        NumGlyphs = 1
+        MaxLength = 0
+        TabOrder = 13
+      end
+      object dtEnd: TDateEdit
+        Left = 8
+        Height = 32
+        Top = 39
+        Width = 103
+        CalendarDisplaySettings = [dsShowHeadings, dsShowDayNames]
+        DateOrder = doNone
+        ButtonWidth = 23
+        NumGlyphs = 1
+        MaxLength = 0
+        TabOrder = 14
+      end
+    end
+    object tsStok: TTabSheet
+      Caption = 'Stok'
+      ClientHeight = 467
+      ClientWidth = 798
+      object btnRefresh2: TBitBtn
+        Left = 520
+        Height = 30
+        Top = 18
+        Width = 75
+        Caption = 'Refresh'
+        TabOrder = 0
+      end
+      object btnFirst2: TBitBtn
+        Left = 16
+        Height = 30
+        Top = 432
+        Width = 75
+        Caption = 'btnFirst2'
+        TabOrder = 1
+      end
+      object btnPrevious2: TBitBtn
+        Left = 96
+        Height = 30
+        Top = 432
+        Width = 75
+        Caption = 'btnPrevious2'
+        TabOrder = 2
+      end
+      object edPage2: TEdit
+        Left = 176
+        Height = 32
+        Top = 432
+        Width = 48
+        NumbersOnly = True
+        TabOrder = 3
+      end
+      object btnNext2: TBitBtn
+        Left = 232
+        Height = 30
+        Top = 432
+        Width = 75
+        Caption = 'btnNext2'
+        TabOrder = 4
+      end
+      object btnLast2: TBitBtn
+        Left = 312
+        Height = 30
+        Top = 432
+        Width = 75
+        Caption = 'btnLast2'
+        TabOrder = 5
+      end
+      object edSearch: TEdit
+        Left = 16
+        Height = 32
+        Top = 16
+        Width = 168
+        TabOrder = 6
+        Text = 'search'
+      end
+      object rgStok: TRadioGroup
+        Left = 200
+        Height = 51
+        Top = 8
+        Width = 296
+        AutoFill = True
+        ChildSizing.LeftRightSpacing = 6
+        ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+        ChildSizing.EnlargeVertical = crsHomogenousChildResize
+        ChildSizing.ShrinkHorizontal = crsScaleChilds
+        ChildSizing.ShrinkVertical = crsScaleChilds
+        ChildSizing.Layout = cclLeftToRightThenTopToBottom
+        ChildSizing.ControlsPerLine = 4
+        ClientHeight = 49
+        ClientWidth = 294
+        Columns = 4
+        Items.Strings = (
+          'nostok'
+          'namastok'
+        )
+        TabOrder = 7
+      end
+      object sgTransaksi1: TStringGrid
+        Left = 0
+        Height = 352
+        Top = 72
+        Width = 805
+        TabOrder = 8
+      end
+    end
+  end
+  object StatusBar1: TStatusBar
+    Left = 0
+    Height = 17
+    Top = 501
+    Width = 808
+    Panels = <    
+      item
+        Width = 50
+      end    
+      item
+        Width = 50
+      end>
+    SimplePanel = False
+  end
+  object FHTTP: TIdHTTP
+    AllowCookies = True
+    ProxyParams.BasicAuthentication = False
+    ProxyParams.ProxyPort = 0
+    Request.ContentLength = -1
+    Request.Date = 0
+    Request.Expires = 0
+    Request.LastModified = 0
+    Request.Accept = 'text/html, */*'
+    Request.BasicAuthentication = False
+    Request.UserAgent = 'Mozilla/3.0 (compatible; Indy Library)'
+    HTTPOptions = [hoForceEncodeParams]
+    left = 720
+  end
+  object MainMenu1: TMainMenu
+    left = 680
+    object iUser: TMenuItem
+      Caption = 'User'
+      object iLogout: TMenuItem
+        Caption = 'Logout'
+      end
+    end
+    object iStok: TMenuItem
+      Caption = 'Stok'
+    end
+    object iTransaksi: TMenuItem
+      Caption = 'Transaksi'
+    end
+    object iAbout: TMenuItem
+      Caption = 'About'
+      OnClick = iAboutClick
+    end
+  end
+  object Timer1: TTimer
+    left = 760
+  end
+end
